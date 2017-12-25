@@ -13,7 +13,7 @@ end <- as.Date("2007-02-02")
 subdf <- subset(df, Date >= start & Date<=end)
 
 # open PNG device and create 'plot1.r' in the current working directory.
-png(filename = "plot3.png", width=480, height=480)
+png(filename = "plot4.png", width=480, height=480)
 # merge date and time
 datetime <- as.POSIXct(paste(subdf$Date, subdf$Time), 
                      format='%Y-%m-%d %H:%M:%S')
